@@ -1,0 +1,4 @@
+http://en.wikipedia.org/wiki/JavaScript
+http://stackoverflow.com/questions/2756527/what-is-spaghetti-code
+http://en.wikipedia.org/wiki/Application_programming_interface
+http://en.wikipedia.org/wiki/Application_programming_interface
