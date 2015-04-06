@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body unresolved>
+  <div id="main">
+    <div id="left-side">
+      <div id="header" class="clearfix">
+        <ul id="topContacts" class='flex-box'></ul>
+      </div>
+    </div>
+    <div id="resume_content">
+      <div id="workExperience">
+        <h2>Work Experience</h2>
+      </div>
+      <div id="education">
+        <h2>Education</h2>
+      </div>
+      <div id="projects">
+        <h2>Projects</h2>
+      </div>
+      <div id="mapDiv">
+        <h2>Where I've Lived and Worked</h2>
+      </div>
+    </div>
+  </div>
+  <div class="clear" style="clear: both;"></div>
+  <footer id="letsConnect" class='dark-gray'>
+          <h2 class='center-text'>Let's Connect</h2>
+            <ul id="footerContacts" class="flex-box">
+          </ul>
+  </footer>
+  <script src="js/resumeBuilder.js"></script>
+  <script>
+    $('#main').append(internationalizeButton);
+    $('#mapDiv').append(googleMap);
+  </script>
+</body>
+</html>
